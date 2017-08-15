@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="androidadvance.com.androidsurveyexample.AboutFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"
+        android:alpha="0.4"
+        android:background="@drawable/aboutback"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="We know -- no industry jargon. If you think it makes you sound super smart on your &quot;About Us&quot; page, think again. People want and appreciate straight talk about what your business does. After all, if people can't figure out what you do, how will they know they need your product or service?  So, skip the industry lingo -- that's what Apptopia does on its &quot;About Us&quot; page. The startup's simple but polished language effectively communicates the company's offering while still allowing the Average Joe to understand it.\n____________________________________________\n@ Founded : 2017\n____________________________________________"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="8dp"
+        android:textStyle="italic|bold"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"/>
+</FrameLayout>
